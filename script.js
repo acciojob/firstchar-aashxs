@@ -1,7 +1,8 @@
 function firstChar(text) {
   // your code here
 	if((text.length==0) || (text.trim().length==0) ){
-		return " ";
+		let str="";
+		return str;
 	}
 	  else{const l=text[0];
 	return l;
