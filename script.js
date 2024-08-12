@@ -4,12 +4,13 @@ function firstChar(text) {
 		let str="";
 		return str;
 	}
-	  else{const l=text[0];
+	  else{
+		  let l=text[0];
 	return l;
     }
 }
 
 // Do not change the code below
-Uncomment the following line to show the prompt popup
+//Uncomment the following line to show the prompt popup
 const text = prompt("Enter text:");
 alert(firstChar(text));
